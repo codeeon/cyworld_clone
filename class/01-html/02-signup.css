@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    /* 회색 배경 */
+
+
+/* width: 1920px;
+height: 1080px; */
+width: 100%;
+height: 90%;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background: #FFFFFF;
+}
+
+.doc {
+/* 회원가입 배경 */
+
+position: relative;
+
+box-sizing: border-box;
+
+
+width: 670px;
+height: 960px;
+
+
+background: #FFFFFF;
+border: 1px solid #AACDFF;
+box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+border-radius: 20px;
+}
+
+.signup {
+    /* Group 5 */
+    position: relative;
+    padding: 70px 100px;
+    width: 470px;
+    height: 818px;
+
+}
+
+.signup__title {
+    /* 회원 가입을 위해 정보를 입력해주세요 */
+margin-top: 2px;
+margin-right: 4px;
+
+width: 466px;
+height: 94px;
+
+font-family: 'Noto Sans CJK KR';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 47px;
+
+color: #0068FF;
+
+}
+.signup__text {
+    margin-top: 60px;
+}
+
+.signup__text--value{
+    width: 158px;
+    height: 23.65px;
+    font-family: 'Noto Sans CJK KR';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #797979;
+}
+.signup__text--input {
+    /* Vector 1 */
+
+    width: 466px;
+    height: 56.35px;
+    border-bottom: 1px solid #CFCFCF;
+    margin-bottom: 21px;
+}
+.blue {
+    border-color: #0068FF;
+}
+
+.signup__gender {
+    margin-top: 50px;
+
+width: 466px;
+height: 23.94px;
+display: flex;
+justify-content: center;
+
+
+font-family: 'Noto Sans CJK KR';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.signup__gender--box {
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+}
+
+
+.signup__gender--radio {
+    width: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .signup__gender--radio input{
+
+} */
+
+.signup__check {
+    /* 이용약관 개인정보 수집 및 이용, 마케팅 활용 선택에 모두 동의합니다. */
+    margin-top: 20.06px;
+    padding: 30px 0;
+display: flex;
+justify-content: center;
+align-items: center;
+
+width: 470px;
+height: 20.72px;
+
+font-family: 'Noto Sans CJK KR';
+font-style: normal;
+font-weight: 400;
+font-size: 13.5px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+
+border-bottom: 1px solid #E6E6E6;
+
+}
+.signup__check--box {
+
+    padding: 0 12px;
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.signup__submit {
+    /* Rectangle 2 */
+margin-top: 30px;
+
+box-sizing: border-box;
+
+width: 470px;
+height: 75px;
+
+
+background: #FFFFFF;
+border: 1px solid #0068FF;
+border-radius: 10px;
+
+font-family: 'Noto Sans CJK KR';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0068FF;
+}
