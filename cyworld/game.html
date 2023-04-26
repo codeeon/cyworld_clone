@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Game</title>
     <link rel="stylesheet" href="./styles/game.css" />
+    <script src="./game.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -12,7 +13,7 @@
           <div class="title">GAME</div>
           <div class="subtitle">TODAY CHOICE</div>
         </div>
-        <div class="devideLine"></div>
+        <div class="divideLine"></div>
       </div>
       <div class="game__container">
         <img src="./images/word.png" />
@@ -27,7 +28,7 @@
             placeholder="단어를 입력하세요"
             type="text"
           />
-          <button class="search">입력</button>
+          <button class="search" onclick="startWord()">입력</button>
         </div>
         <div class="word__result" id="result">결과!</div>
       </div>
@@ -43,7 +44,7 @@
           <div class="lotto__number">30</div>
           <div class="lotto__number">34</div>
         </div>
-        <button class="lotto__button">Button</button>
+        <button class="lotto__button">추첨</button>
       </div>
     </div>
   </body>
