@@ -16,7 +16,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
+}
+
+.wrapper__header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper__title {
@@ -38,14 +44,12 @@ body {
 .divideLine {
   width: 100%;
   border-top: 1px solid gray;
-  margin-top: 8px;
+  margin: 10px 0px;
 }
 
 .albumWrapper {
-  box-sizing: border-box;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .album {
@@ -54,38 +58,86 @@ body {
   align-items: center;
   justify-content: center;
 }
+.albumWrapper__item {
+  display: flex;
+  flex-direction: column;
+}
 
-.album__image {
+.album-thumbnail {
   width: 120px;
   height: 120px;
-  margin: 20px 0 10px 0;
 }
-.album__song {
+.album-songtitle {
   width: 120px;
   height: 15px;
   font-weight: 700;
   font-size: 11px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color: #0f465e;
 }
-.album__singer {
+.album-artist {
   font-size: 10px;
   font-weight: 700;
   color: #999999;
+  display: flex;
+  justify-content: center;
 }
+
+.wrapper__body {
+  width: 100%;
+}
+
+.albumTable {
+  width: 100%;
+  padding-top: 8px;
+  border-spacing: 0px;
+}
+.albumTable th {
+  height: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+  background-color: #eeeeee;
+  padding-top: 5px;
+  border-top: 1px solid gray;
+  border-bottom: 1px dashed gray;
+}
+.albumTable td {
+  height: 20px;
+  font-size: 10px;
+  color: #0f465e;
+  border-bottom: 1px dashed gray;
+}
+.album-table-checkbox {
+  width: 5%;
+  text-align: center;
+}
+.album-table-number {
+  width: 10%;
+  text-align: center;
+}
+.album-table-song {
+  width: 45%;
+  text-align: left;
+}
+.album-table-artist {
+  width: 30%;
+  text-align: center;
+}
+
+/* html에서 <table>을 사용하지 않고 내가 썼던 코드.
 
 .albumTable {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
+
 }
 
 .albumTable__list,
 .albumTable__song {
   display: flex;
   align-items: center;
-  /* justify-content: ; */
   width: 100%;
   height: 20px;
 }
@@ -107,7 +159,6 @@ body {
 .song__number {
   font-size: 10px;
   color: #000000;
-  padding-right: ;
 }
 .song__name,
 .song__artist {
@@ -134,4 +185,4 @@ body {
 .albumTable__list :last-child,
 .albumTable__song :last-child {
   width: 20%;
-}
+} */
