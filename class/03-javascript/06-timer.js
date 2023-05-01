@@ -22,7 +22,7 @@ let sendNumber = () => {
       } else {
         document.getElementById('finish').disabled = true; // 0:00이 되면 인증완료 버튼을 비활성화 시키는 것
         isStarted = false;
-        console.log('타이머 작동 중'); // 타이머 작동 이, isStarted = false와 같이, 1000ms 마다 하나씩 계속 찍히는 걸 확인 가능.
+        console.log('타이머 작동 중'); // 타이머 작동 중이, isStarted = false와 같이, 1000ms 마다 하나씩 계속 찍히는 걸 확인 가능.
         clearInterval(timer); // 인터벌 기능을 종료하는 것. 타이머 작동 중이 한 번만 딱 찍힘.
       }
     }, 1000);
